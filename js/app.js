@@ -33,6 +33,19 @@ $(document).ready(function() {
 	  $('.ryu-throwing').hide();
 	  $('.ryu-ready').show();
 	});
+	$(document).keydown(function(event) {
+		if (event.keyCode == 88) {
+		$('.ryu-cool').show();
+		$('.ryu-still').hide();	
+		}
+	}).keyup(function(event) {
+		if (event.keyCode == 88) {
+			$('.ryu-still').show();
+			$('.ryu-cool').hide();
+
+		}
+	});
+	
 });
 function playHadouken () {
 	$('#hadouken-sound')[0].volume = 0.5;
