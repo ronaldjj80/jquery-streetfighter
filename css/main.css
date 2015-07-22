@@ -19,14 +19,13 @@ body {
 }
 
 .ryu {
-	width: 659px;
+	width: 600px;
 	height: 494px;
 }
 
 
-
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
-	width: 659px;
+	width: 600px;
 	height:494px;
 }
 
@@ -65,3 +64,24 @@ body {
 	z-index: 10;
 }
 
+.how-to {
+	font-family: 'Bangers', cursive;
+	width: 600px;
+	height: 494px;
+	color: black;
+	position: absolute;
+	right: 2em;
+	display: none;
+}
+
+.how-to p {
+	width: 54%;
+	font-size: 30px;
+	line-height: 45px;
+	margin-top: 86px;
+	margin-bottom: 74px;
+}
+
+.how-to p + p {
+	margin-left: 224px;
+}
